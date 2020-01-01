@@ -328,7 +328,7 @@ files:
 - name: src/games/gameOfFifteen/GameOfFifteenInitializer.kt
   visible: true
   placeholders:
-  - offset: 590
+  - offset: 885
     length: 6
     placeholder_text: TODO()
     initial_state:
