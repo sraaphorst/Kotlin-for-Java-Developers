@@ -10,11 +10,5 @@ package games.gameOfFifteen
  *   (numbers sorted in the right order, empty cell at last).
  * Thus the initial permutation should be correct.
  */
-fun isEven(permutation: List<Int>): Boolean {
-    val n = permutation.size
-
-    // Generate all pairs (i < j), and check if P(i) > P(j).
-    val calcs = (0 until n-1).flatMap { i -> (i+1 until n).map { j -> Pair(i, j) } }.count { (i, j) -> permutation[i] > permutation[j] }
-    return calcs % 2 != 1
-
-}
+fun isEven(permutation: List<Int>): Boolean =
+    permutation.indices.flatMap { i -> (i+1 until permutation.size).map { j -> Pair(i, j) } }.count { (i, j) -> permutation[i] > permutation[j] } % 2 != 1

@@ -52,7 +52,7 @@ files:
     length: 1906
     placeholder_text: TODO()
     initial_state:
-      length: 6
+      length: 1906
       offset: 90
     initialized_from_dependency: false
     selected: true
@@ -62,7 +62,7 @@ files:
     placeholder_text: TODO()
     initial_state:
       length: 6
-      offset: 149
+      offset: 2049
     initialized_from_dependency: false
     selected: false
     status: Unchecked
@@ -97,7 +97,7 @@ files:
     length: 699
     placeholder_text: TODO()
     initial_state:
-      length: 6
+      length: 699
       offset: 1227
     initialized_from_dependency: false
     selected: false
@@ -107,7 +107,7 @@ files:
     placeholder_text: TODO()
     initial_state:
       length: 6
-      offset: 1705
+      offset: 2398
     initialized_from_dependency: false
     selected: false
     status: Unchecked
@@ -116,7 +116,7 @@ files:
     placeholder_text: TODO()
     initial_state:
       length: 6
-      offset: 2052
+      offset: 2745
     initialized_from_dependency: false
     selected: false
     status: Unchecked
@@ -197,7 +197,7 @@ files:
     length: 183
     placeholder_text: TODO()
     initial_state:
-      length: 6
+      length: 183
       offset: 730
     initialized_from_dependency: false
     selected: false
@@ -234,7 +234,7 @@ files:
     placeholder_text: TODO()
     initial_state:
       length: 6
-      offset: 820
+      offset: 905
     initialized_from_dependency: false
     selected: false
     status: Unchecked
@@ -299,11 +299,11 @@ files:
 - name: src/games/gameOfFifteen/GameOfFifteenHelper.kt
   visible: true
   placeholders:
-  - offset: 480
-    length: 250
+  - offset: 474
+    length: 156
     placeholder_text: TODO()
     initial_state:
-      length: 6
+      length: 250
       offset: 480
     initialized_from_dependency: false
     selected: true
@@ -328,7 +328,7 @@ files:
 - name: src/games/gameOfFifteen/GameOfFifteenInitializer.kt
   visible: true
   placeholders:
-  - offset: 576
+  - offset: 590
     length: 6
     placeholder_text: TODO()
     initial_state:
